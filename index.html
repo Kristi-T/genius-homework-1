@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty zone</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="/">
           <img
             src="./images/logo.svg"
             alt="Лого косметологічної клініки Beauty zone "
           />
         </a>
         <ul>
-          <li><a href="#" target="_blank">Про нас</a></li>
-          <li><a href="#" target="_blank">Чому ми</a></li>
-          <li><a href="#" target="_blank">Наші процедури</a></li>
-          <li><a href="#" target="_blank">Контакти</a></li>
+          <li>
+            <a class="nav-link" href="#about-clinique">Про нас</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#why-us">Чому ми</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#our-procedures">Наші процедури</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#contacts">Контакти</a>
+          </li>
           <li>
             <a href="#">
               <!-- phone -->
@@ -39,21 +48,26 @@
     </header>
     <main>
       <section>
-        <p>Косметологічна клініка</p>
-        <h1 lang="en">beauty zone</h1>
-        <button type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <p class="hero-uptitle">Косметологічна клініка</p>
+        <h1 class="hero-title" lang="en">beauty zone</h1>
+        <button class="button-primary" type="button">Замовити дзвінок</button>
+        <p class="hero-par">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
-      <section>
-        <h2>Перевтілюйтесь в <span>beauty zone!</span></h2>
+      <section id="about-clinique" class="about-text">
+        <h2 class="about-title">
+          Перевтілюйтесь в <span class="accent" lang="en">beauty zone!</span>
+        </h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
         <p>
-          B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості та
-          приємний сервіс. Наші косметологічні процедури та препарати допоможуть
-          вам підтримувати свою красу та молодість. З нами краса назавжди!
+          B <span class="accent" lang="en">beauty zone</span> ми гарантуємо
+          найвищі стандарти якості та приємний сервіс. Наші косметологічні
+          процедури та препарати допоможуть вам підтримувати свою красу та
+          молодість. З нами краса назавжди!
         </p>
         <img
           src="images/woman-face-1.jpg"
@@ -64,9 +78,11 @@
           alt="Обличчя жінки зі стрілкою, що намальована по контуру шиї."
         />
       </section>
-      <section>
-        <h2>Чому люди <span>обирають нас</span></h2>
-        <article>
+      <section id="why-us">
+        <h2 class="why-us-title">
+          Чому люди <span class="accent">обирають нас</span>
+        </h2>
+        <article class="advantages">
           <img
             src="images/game-icons_materials-science.svg"
             alt="game-icons_materials-science"
@@ -76,7 +92,7 @@
             років
           </p>
         </article>
-        <article>
+        <article class="advantages">
           <img
             src="images/medicinecosmeticsbottletreatment_109776 1.svg"
             alt="Medicine cosmetics bottle"
@@ -86,7 +102,7 @@
             часом
           </p>
         </article>
-        <article>
+        <article class="advantages">
           <img src="images/crown-icon.svg" alt="crown-icon" />
           <p>
             Наша мета - підкреслити переваги та приховати недоліки, а не
@@ -94,14 +110,36 @@
           </p>
         </article>
       </section>
-      <section>
-        <h2>Наші <span>процедури</span></h2>
-        <article><img src="" alt="" /></article>
-        <article><img src="" alt="" /></article>
-        <article><img src="" alt="" /></article>
+      <section id="our-procedures">
+        <h2 class="procedures-title">
+          Наші <span class="accent">процедури</span>
+        </h2>
+        <article class="procedures">
+          <img src="" alt="" />
+          <p>Маски для обличчя</p>
+        </article>
+        <article class="procedures">
+          <img src="" alt="" />
+          <p>Ін'єкції для обличчя</p>
+        </article>
+        <article class="procedures">
+          <img src="" alt="" />
+          <p>Очищення обличчя</p>
+        </article>
       </section>
-      <section>
-        <h2>Як нас <span>знайти</span></h2>
+      <section id="contacts">
+        <h2 class="contacts-title">
+          Як нас <span class="accent">знайти</span>
+        </h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325719461126!2d30.5181753!3d50.4423566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699807368887!5m2!1suk!2sua"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
