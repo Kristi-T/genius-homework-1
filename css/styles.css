@@ -50,25 +50,31 @@ ul {
 body {
   color: var(--color-primary-dark);
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 22px;
   background: var(--color-primary-light);
+  font-style: normal;
+  line-height: normal;
+}
+address {
+  font-style: normal;
 }
 
 /* Global title */
 
-.section-title {
+/* .section-title {
 }
 
 .section-title .section-title-accent {
-}
+} */
 
 /* Global text */
-
+/* 
 .par-accent-primary {
 }
 
 .par-accent-secondary {
-}
+} */
 
 /* Button */
 
@@ -90,21 +96,12 @@ body {
 
 .nav-link {
   color: var(--color-primary-dark);
-  /* font-family: "Roboto", sans-serif; */
-
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-decoration: none;
 }
 
 .nav-link:hover {
   color: var(--color-primary-medium);
-  /* font-family: "Roboto", sans-serif; */
-
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-decoration: underline;
 }
 
@@ -113,18 +110,12 @@ body {
   color: var(--color-primary-medium);
   font-family: "Play", sans-serif;
   font-size: 140px;
-  font-style: normal;
   font-weight: 700;
   line-height: 114px; /* 81.429% */
   text-transform: capitalize;
 }
 .hero-uptitle {
   color: var(--color-secondary-0);
-  /* font-family: "Roboto", sans-serif; */
-
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 /* .hero-title .accent {
@@ -133,43 +124,37 @@ body {
 .hero-par {
   color: var(--color-secondary-0);
   text-align: center;
-  /* font-family: "Roboto", sans-serif; */
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
+  line-height: 1.5;
 }
 
 /* About section */
 
 .about-title {
   color: var(--beauty-landing-2-c-1, --color-primary-dark);
-
-  /* beauty landing 2/Н1 title */
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .about-title .accent {
   color: var(--color-primary-medium);
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-transform: capitalize;
 }
 
 .about-text {
   color: var(--color-primary-dark);
-  /* font-family: "Roboto", sans-serif; */
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 38px; /* 172.727% */
+  line-height: 1.5;
+}
+
+.about-text .accent {
+  color: var(--beauty-landing-2-c-1, #011c44);
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
 }
 
 /* Why us section */
@@ -179,27 +164,20 @@ body {
   text-align: center;
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .why-us-title .accent {
   color: var(--color-primary-medium);
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .advantages {
   color: #000;
   text-align: center;
-
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
 }
 
 /* Our procedures section */
@@ -209,27 +187,20 @@ body {
   text-align: center;
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .procedures-title .accent {
   color: var(--color-primary-medium);
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .procedures {
   color: var(--color-primary-light);
   text-align: center;
-  /* font-family: "Roboto", sans-serif; */
   font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 26px; /* 118.182% */
 }
 
@@ -240,16 +211,43 @@ body {
   text-align: center;
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .contacts-title .accent {
   color: var(--color-primary-medium);
   font-family: "Play", sans-serif;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+}
+
+/* Footer */
+
+.footer-nav-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+}
+
+.footer-nav-link:hover {
+  color: var(--color-secondary-3);
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.address-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+}
+
+.address-link:hover {
+  color: var(--color-secondary-3);
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.address-copyright {
+  color: var(--color-secondary-1);
+  font-size: 13px;
 }

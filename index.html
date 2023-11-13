@@ -62,20 +62,24 @@
           Запишись та отримай безкоштовну консультацію нашого косметолога
         </p>
       </section>
-      <section id="about-clinique" class="about-text">
+      <section id="about-clinique">
         <h2 class="about-title">
           Перевтілюйтесь в <span class="accent" lang="en">beauty zone!</span>
         </h2>
-        <p>
-          Наша косметологічна клініка пропонує вам професійні послуги з догляду
-          за шкірою обличчя та тіла.
-        </p>
-        <p>
-          B <span class="accent" lang="en">beauty zone</span> ми гарантуємо
-          найвищі стандарти якості та приємний сервіс. Наші косметологічні
-          процедури та препарати допоможуть вам підтримувати свою красу та
-          молодість. З нами краса назавжди!
-        </p>
+        <div class="about-text">
+          <p>
+            Наша косметологічна клініка пропонує вам професійні послуги з
+            догляду за шкірою обличчя та тіла.
+          </p>
+          <p>
+            B <span class="accent" lang="en">beauty zone</span> ми гарантуємо
+            найвищі стандарти якості та приємний сервіс. Наші косметологічні
+            процедури та препарати допоможуть вам підтримувати свою красу та
+            молодість.
+          </p>
+          <p>З нами краса назавжди!</p>
+        </div>
+
         <img
           src="images/woman-face-1.jpg"
           alt="Обличчя жінки зі стрілкою, що намальована по контуру щоки."
@@ -121,6 +125,7 @@
         <h2 class="procedures-title">
           Наші <span class="accent">процедури</span>
         </h2>
+        <!-- <div> -->
         <article class="procedures">
           <img src="" alt="" />
           <p>Маски для обличчя</p>
@@ -133,6 +138,7 @@
           <img src="" alt="" />
           <p>Очищення обличчя</p>
         </article>
+        <!-- </div> -->
       </section>
       <section id="contacts">
         <h2 class="contacts-title">
@@ -158,20 +164,40 @@
           />
         </a>
         <ul>
-          <li><a href="#" target="_blank">Про нас</a></li>
-          <li><a href="#" target="_blank">Чому ми</a></li>
-          <li><a href="#" target="_blank">Наші процедури</a></li>
-          <li><a href="#" target="_blank">Контакти</a></li>
+          <li>
+            <a class="footer-nav-link" href="#" target="_blank">Про нас</a>
+          </li>
+          <li>
+            <a class="footer-nav-link" href="#" target="_blank">Чому ми</a>
+          </li>
+          <li>
+            <a class="footer-nav-link" href="#" target="_blank"
+              >Наші процедури</a
+            >
+          </li>
+          <li>
+            <a class="footer-nav-link" href="#" target="_blank">Контакти</a>
+          </li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
           <li>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+            <a class="address-link" href="tel:+380960000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/FTAmWWpmxCksTNbc8" target="_blank">
+            <a class="address-link" href="mailto:beautyzone@gmail.com"
+              >beautyzone@gmail.com</a
+            >
+          </li>
+          <li>
+            <a
+              class="address-link"
+              href="https://maps.app.goo.gl/FTAmWWpmxCksTNbc8"
+              target="_blank"
+            >
               Україна, м. Київ, вул. Тараса Шевченка 5</a
             >
           </li>
@@ -191,8 +217,10 @@
             </a>
           </li>
         </ul>
-        <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>© 2023 Дані захищені</p>
+        <a class="address-link" href="#" target="_blank"
+          >Політика конфіденційності</a
+        >
+        <p class="address-copyright">© 2023 Дані захищені</p>
       </address>
     </footer>
   </body>
