@@ -43,11 +43,16 @@
   --color-secondary-3: #ffd02b;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 ul {
   list-style-type: none;
 }
 
 body {
+  margin: 0;
   color: var(--color-primary-dark);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -60,29 +65,47 @@ address {
   font-style: normal;
 }
 
-/* Global title */
-
-/* .section-title {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
 }
 
-.section-title .section-title-accent {
-} */
-
-/* Global text */
-/* 
-.par-accent-primary {
+.container {
+  width: 100%;
+  max-width: 1176px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-.par-accent-secondary {
-} */
+.section {
+  padding: 48px 0;
+}
+
+.contacts-title,
+.procedures-title,
+.why-us-title {
+  margin-bottom: 48px;
+}
 
 /* Button */
 
 .button-primary {
+  padding: 16px 32px;
   color: var(--color-primary-light);
-  border-radius: 32px;
   background: var(--color-primary-medium);
+  border-radius: 32px;
   cursor: pointer;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 2px solid #2b7fff;
 }
 
 .button-primary:hover {
@@ -90,6 +113,11 @@ address {
   background-color: transparent;
   border-radius: 32px;
   border: 2px solid #2b7fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* Link */
@@ -106,6 +134,13 @@ address {
 }
 
 /* Hero section */
+.hero-section {
+  padding-top: 160px;
+  padding-right: auto;
+  padding-bottom: 270px;
+  padding-left: auto;
+}
+
 .hero-title {
   color: var(--color-primary-medium);
   font-family: "Play", sans-serif;
@@ -113,13 +148,17 @@ address {
   font-weight: 700;
   line-height: 114px; /* 81.429% */
   text-transform: capitalize;
+  margin-bottom: 0;
 }
 .hero-uptitle {
-  color: var(--color-secondary-0);
+  color: var(--beauty-landing-2-c-1, #011c44);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
 }
-
-/* .hero-title .accent {
-} */
 
 .hero-par {
   color: var(--color-secondary-0);
@@ -129,12 +168,16 @@ address {
 }
 
 /* About section */
+.about-section {
+  padding-top: 40px;
+}
 
 .about-title {
   color: var(--beauty-landing-2-c-1, --color-primary-dark);
   font-family: "Play", sans-serif;
   font-size: 64px;
   font-weight: 700;
+  margin-bottom: 40px;
 }
 
 .about-title .accent {
